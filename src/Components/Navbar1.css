@@ -1,0 +1,33 @@
+.navbar{
+    width: 100%;
+  }
+  .navLogo{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+  }
+  .navItems{
+    margin-right: 100px;
+    gap: 60px;
+    font-size: 19px;
+    font-weight: 600;
+  }
+
+  .Home{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+  .Home:focus{
+    color: white;
+  }
+  .Home:hover,.navLogo:hover{
+    color: rgb(173, 107, 85) !important;
+  }
+  
+  @media screen and (max-width:992px) {
+    .Home{
+      margin-left: 60px;
+    }
+  }

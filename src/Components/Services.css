@@ -1,0 +1,75 @@
+.servicesCart{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+}
+.ServiceOne{
+    width: 45%;
+    display: flex;
+}
+.imgDiv img{
+    width: 220px;
+    height: 240px;
+}
+.textContent{
+    padding: 17px;  
+}
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.heading h3{
+    font-size: 21px;
+}
+.Icon{
+    background-color: rgb(218, 159, 91);
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.Icon img{
+    width: 30px;
+    height: 30px;
+}
+.textContent p{
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(59, 59, 59);
+}
+@media screen and (max-width:992px) {
+    .servicesCart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Services h1{
+        margin-bottom: 100px;
+    }
+    .ServiceOne{
+        width: 95%;
+    }
+}
+@media screen and (max-width:576px) {
+    .ServiceOne{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .textContent p{
+        text-align: center;
+    }
+}

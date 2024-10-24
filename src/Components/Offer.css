@@ -1,0 +1,79 @@
+.Offer {
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTcxMzA4Ni13aWtpbWVkaWEtaW1hZ2Utam9iNTcyLTEuanBn.jpg");
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-bottom: 100px; */
+    display: flex;
+}
+
+.divBlock {
+    width: max-content;
+    margin: auto;
+    text-align: center;
+}
+
+.divBlock h1 {
+    font-size: 85px;
+    font-weight: 700;
+    color: rgb(218, 159, 91);
+}
+
+.divBlock h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.divBlock p {
+    color: white;
+    font-size: 29px;
+    /* font-weight: 600; */
+}
+
+.forms {
+    margin: auto;
+    display: flex;
+justify-content: center;
+}
+
+.forms input {
+    border: none;
+    outline: none;
+    width: 280px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(83, 83, 83);
+    padding-left: 30px;
+    font-size: 19px;
+}
+
+.forms button {
+    width: 120px;
+    height: 60px;
+    border: none;
+    font-size: 19px;
+    background-color: rgb(218, 159, 91);
+}
+.forms button:hover{
+    background-color: rgb(229, 124, 4);
+}
+
+@media screen and (max-width:576px) {
+    .divBlock h1 {
+        font-size: 65px;
+    }
+    
+    .divBlock h2 {
+        font-size: 35px;
+    }
+    
+    .divBlock p {
+        font-size: 20px;
+    }
+
+    
+    
+}
